@@ -29,33 +29,44 @@ value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {devices/code_shown.sym} 20 -700 0 0 {name=NGSPICE only_toplevel=true
-value="
-
+C {devices/code_shown.sym} 10 -860 0 0 {name=NGSPICE only_toplevel=true
+value=" 
 .control
 save all
 
 ** Define input signal
 let fsig = 1k
-let tperiod = 1/fsig
-let tfr = 0.01*tperiod
-let ton = 0.5*tperiod-2*tfr
+let tper = 1/fsig
+let tfr = 0.01*tper
+let ton = 0.5*tper-2*tfr
 
 ** Define transient params
 let tstop = 2*tper
 let tstep = 0.001*tper
 
-** Set sources
+** Set Sources
 alter @VIN[DC] = 0.0
-** PULSE = [ start amplitude delay rise-fall-time ton tperiod ]
-alter @VIN[PULSE] = [ 0 3.3 0 $&tfr $&ton $&tperiod 0 ]
+alter @VIN[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&ton $&tper 0 ]
 
 ** Simulations
 op
 dc vin 0 3.3 0.01
 tran $&tstep $&tstop
- 
-write test_inv_tb.raw
+
+
+** Plots
+setplot dc1
+let vout = v(out)
+plot vout
+
+setplot tran1
+let vout = v(out)
+let vin = v(in)
+let ivdd = -v1#branch*1e4
+plot vout vin ivdd 
+
+setplot op1
+write inv_tb .raw
 .endc
 "}
-C {sscs-chipathon-2025-Digimon/test-inv.sym} 990 -230 0 0 {name=x-inv1}
+C {test/test-inv.sym} 990 -230 0 0 {name=x-inv1}
