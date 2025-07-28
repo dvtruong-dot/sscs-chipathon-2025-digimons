@@ -22,6 +22,12 @@ N 1100 -360 1180 -360 {lab=in3}
 N 1100 -360 1100 -300 {lab=in3}
 N 1480 -400 1530 -400 {lab=VDD}
 N 1480 -360 1530 -360 {lab=GND}
+N 1180 -400 1290 -400 {lab=in1}
+N 1180 -380 1290 -370 {lab=in2}
+N 1180 -360 1290 -340 {lab=in3}
+N 1340 -310 1480 -360 {lab=GND}
+N 1340 -430 1480 -400 {lab=VDD}
+N 1390 -370 1480 -380 {lab=vout}
 C {devices/title.sym} 160 20 0 0 {name=l1 author="Derek Truong"}
 C {devices/code_shown.sym} 40 -110 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
@@ -87,4 +93,4 @@ plot v(vout) v(in1)+4 v(in2)+8 v(in3)+12 title '3-Input AND Gate Response'
 .endc
 "}
 C {devices/lab_wire.sym} 1550 -380 0 0 {name=p2 sig_type=std_logic lab=vout}
-C {3_input_and.sym} 1330 -380 0 0 {name=x1}
+C {3_input_and.sym} 1420 -210 0 0 {name=x1}
