@@ -57,6 +57,10 @@ N 740 -670 1190 -605 {lab=#net4}
 N 740 -460 1190 -580 {lab=#net5}
 N 740 -270 1190 -555 {lab=#net6}
 N 1315 -590 1410 -590 {lab=vo}
+N 450 -950 880 -970 {lab=vdd}
+N 310 -950 880 -700 {lab=vdd}
+N 390 -950 840 -130 {lab=vss}
+N 250 -950 840 -260 {lab=vss}
 C {title.sym} 40 50 0 0 {name=l1 author="The Digimons"}
 C {ipin.sym} 110 -850 0 0 {name=p1 lab=d0}
 C {ipin.sym} 110 -660 0 0 {name=p2 lab=d1}
