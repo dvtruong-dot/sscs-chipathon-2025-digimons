@@ -22,7 +22,7 @@ N 1060 -460 1200 -455 {lab=vin1}
 N 1060 -460 1060 -440 {lab=vin1}
 N 1120 -430 1200 -430 {lab=vin2}
 N 1120 -430 1120 -390 {lab=vin2}
-C {devices/title.sym} 180 -60 0 0 {name=l1 author="Derek Truong"}
+C {devices/title.sym} 180 -60 0 0 {name=l1 author="The Digimons"}
 C {devices/code_shown.sym} 60 -190 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -51,7 +51,7 @@ C {devices/vsource.sym} 1060 -410 0 0 {name=VIN1
 value=3.3
 savecurrent=false}
 C {devices/gnd.sym} 1060 -330 0 0 {name=l9 lab=GND}
-C {devices/code_shown.sym} -20 -790 0 0 {name=NGSPICE only_toplevel=true
+C {devices/code_shown.sym} -20 -850 0 0 {name=NGSPICE only_toplevel=true
 value=" 
 .control
 save all
