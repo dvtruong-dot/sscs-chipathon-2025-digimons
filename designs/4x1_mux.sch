@@ -4,77 +4,90 @@ K {}
 V {}
 S {}
 E {}
-N 220 -1000 220 -270 {lab=s1}
-N 220 -990 280 -990 {lab=s1}
-N 280 -990 280 -980 {lab=s1}
-N 330 -990 420 -990 {lab=s0}
-N 420 -990 420 -980 {lab=s0}
-N 420 -900 420 -420 {lab=#net1}
-N 110 -850 640 -910 {lab=d0}
-N 280 -850 640 -880 {lab=#net2}
-N 420 -850 640 -850 {lab=#net1}
-N 110 -660 640 -700 {lab=d1}
-N 280 -660 640 -670 {lab=#net2}
-N 330 -640 640 -640 {lab=s0}
-N 110 -450 640 -490 {lab=d2}
-N 220 -430 640 -460 {lab=s1}
-N 420 -420 640 -430 {lab=#net1}
-N 220 -270 640 -270 {lab=s1}
-N 280 -900 280 -850 {lab=#net2}
-N 280 -850 280 -660 {lab=#net2}
-N 140 -290 640 -300 {lab=d3}
-N 330 -990 330 -240 {lab=s0}
-N 330 -240 640 -240 {lab=s0}
-N 330 -1000 330 -990 {lab=s0}
-N 880 -980 880 -960 {lab=vdd}
-N 690 -960 880 -960 {lab=vdd}
-N 690 -960 690 -940 {lab=vdd}
-N 880 -960 880 -770 {lab=vdd}
-N 690 -770 880 -770 {lab=vdd}
-N 690 -770 690 -730 {lab=vdd}
-N 880 -770 880 -570 {lab=vdd}
-N 690 -570 880 -570 {lab=vdd}
-N 690 -570 690 -520 {lab=vdd}
-N 880 -570 880 -370 {lab=vdd}
-N 690 -360 880 -370 {lab=vdd}
-N 690 -360 690 -330 {lab=vdd}
-N 880 -960 1250 -645 {lab=vdd}
-N 840 -160 840 -90 {lab=vss}
-N 690 -160 840 -160 {lab=vss}
-N 690 -210 690 -160 {lab=vss}
-N 840 -390 840 -160 {lab=vss}
-N 690 -390 840 -390 {lab=vss}
-N 690 -400 690 -390 {lab=vss}
-N 840 -590 840 -390 {lab=vss}
-N 690 -590 840 -590 {lab=vss}
-N 690 -610 690 -590 {lab=vss}
-N 840 -800 840 -590 {lab=vss}
-N 690 -800 840 -800 {lab=vss}
-N 690 -820 690 -800 {lab=vss}
-N 840 -160 1250 -540 {lab=vss}
-N 740 -880 1190 -630 {lab=#net3}
-N 740 -670 1190 -605 {lab=#net4}
-N 740 -460 1190 -580 {lab=#net5}
-N 740 -270 1190 -555 {lab=#net6}
-N 1315 -590 1410 -590 {lab=vo}
-N 450 -950 880 -970 {lab=vdd}
-N 310 -950 880 -700 {lab=vdd}
-N 390 -950 840 -130 {lab=vss}
-N 250 -950 840 -260 {lab=vss}
+N 360 -1060 360 -1040 {lab=s1}
+N 360 -1040 490 -1040 {lab=s1}
+N 490 -1040 490 -1030 {lab=s1}
+N 660 -1060 660 -1050 {lab=s0}
+N 660 -1050 770 -1050 {lab=s0}
+N 770 -1050 770 -1030 {lab=s0}
+N 190 -860 960 -860 {lab=d0}
+N 960 -880 1080 -880 {lab=d0}
+N 960 -880 960 -860 {lab=d0}
+N 490 -920 490 -670 {lab=#net1}
+N 490 -850 1080 -850 {lab=#net1}
+N 770 -920 770 -820 {lab=#net2}
+N 770 -820 1080 -820 {lab=#net2}
+N 1250 -1040 1280 -1040 {lab=vdd}
+N 1250 -1040 1250 -290 {lab=vdd}
+N 1130 -290 1250 -290 {lab=vdd}
+N 1130 -290 1130 -250 {lab=vdd}
+N 1130 -940 1250 -940 {lab=vdd}
+N 1130 -940 1130 -910 {lab=vdd}
+N 1130 -730 1250 -730 {lab=vdd}
+N 1130 -730 1130 -710 {lab=vdd}
+N 1130 -500 1250 -500 {lab=vdd}
+N 1130 -500 1130 -480 {lab=vdd}
+N 490 -670 1020 -670 {lab=#net1}
+N 1020 -670 1020 -650 {lab=#net1}
+N 1020 -650 1080 -650 {lab=#net1}
+N 190 -690 1050 -690 {lab=d1}
+N 1050 -690 1050 -680 {lab=d1}
+N 1050 -680 1080 -680 {lab=d1}
+N 660 -1050 660 -620 {lab=s0}
+N 660 -620 1080 -620 {lab=s0}
+N 190 -510 1010 -510 {lab=d2}
+N 1010 -510 1010 -450 {lab=d2}
+N 1010 -450 1080 -450 {lab=d2}
+N 360 -1040 360 -420 {lab=s1}
+N 360 -420 1080 -420 {lab=s1}
+N 770 -820 770 -400 {lab=#net2}
+N 770 -400 770 -390 {lab=#net2}
+N 770 -390 1080 -390 {lab=#net2}
+N 190 -310 1000 -310 {lab=d3}
+N 1000 -310 1000 -230 {lab=d3}
+N 1000 -230 1000 -220 {lab=d3}
+N 1000 -220 1080 -220 {lab=d3}
+N 360 -420 360 -190 {lab=s1}
+N 360 -190 1080 -190 {lab=s1}
+N 660 -160 1080 -160 {lab=s0}
+N 660 -620 660 -160 {lab=s0}
+N 1230 -40 1270 -40 {lab=vss}
+N 1230 -770 1230 -40 {lab=vss}
+N 1130 -770 1230 -770 {lab=vss}
+N 1130 -790 1130 -770 {lab=vss}
+N 1130 -560 1230 -560 {lab=vss}
+N 1130 -590 1130 -560 {lab=vss}
+N 1130 -330 1230 -330 {lab=vss}
+N 1130 -360 1130 -330 {lab=vss}
+N 1130 -100 1230 -100 {lab=vss}
+N 1130 -130 1130 -100 {lab=vss}
+N 1180 -190 1370 -190 {lab=#net3}
+N 1370 -510 1370 -190 {lab=#net3}
+N 1370 -510 1440 -505 {lab=#net3}
+N 1180 -420 1320 -420 {lab=#net4}
+N 1320 -530 1320 -420 {lab=#net4}
+N 1320 -530 1440 -530 {lab=#net4}
+N 1180 -650 1360 -650 {lab=#net5}
+N 1360 -650 1360 -560 {lab=#net5}
+N 1360 -560 1440 -555 {lab=#net5}
+N 1180 -850 1400 -850 {lab=#net6}
+N 1400 -850 1400 -570 {lab=#net6}
+N 1400 -570 1440 -580 {lab=#net6}
+N 1565 -540 1640 -540 {lab=vo}
 C {title.sym} 40 50 0 0 {name=l1 author="The Digimons"}
-C {ipin.sym} 110 -850 0 0 {name=p1 lab=d0}
-C {ipin.sym} 110 -660 0 0 {name=p2 lab=d1}
-C {ipin.sym} 110 -450 0 0 {name=p3 lab=d2}
-C {ipin.sym} 140 -290 0 0 {name=p4 lab=d3}
-C {ipin.sym} 220 -1000 1 0 {name=p5 lab=s1}
-C {ipin.sym} 330 -1000 1 0 {name=p6 lab=s0}
-C {3_input_and.sym} 770 -720 0 0 {name=x1}
-C {3_input_and.sym} 770 -510 0 0 {name=x2}
-C {3_input_and.sym} 770 -300 0 0 {name=x3}
-C {3_input_and.sym} 770 -110 0 0 {name=x4}
-C {4_input_or.sym} 1180 -420 0 0 {name=x5}
-C {inv.sym} 150 -940 1 0 {name=x6}
-C {inv.sym} 290 -940 1 0 {name=x7}
-C {iopin.sym} 880 -980 3 0 {name=p7 lab=vdd}
-C {iopin.sym} 840 -90 1 0 {name=p8 lab=vss}
-C {opin.sym} 1410 -590 0 0 {name=p9 lab=vo}
+C {ipin.sym} 190 -860 0 0 {name=p1 lab=d0}
+C {ipin.sym} 190 -690 0 0 {name=p2 lab=d1}
+C {ipin.sym} 190 -510 0 0 {name=p3 lab=d2}
+C {ipin.sym} 190 -310 0 0 {name=p4 lab=d3}
+C {ipin.sym} 360 -1060 1 0 {name=p5 lab=s1}
+C {ipin.sym} 660 -1060 1 0 {name=p6 lab=s0}
+C {inv.sym} 340 -900 1 0 {name=x1}
+C {inv.sym} 620 -900 1 0 {name=x2}
+C {3_input_and.sym} 1210 -690 0 0 {name=x3}
+C {3_input_and.sym} 1210 -490 0 0 {name=x4}
+C {3_input_and.sym} 1210 -260 0 0 {name=x5}
+C {3_input_and.sym} 1210 -30 0 0 {name=x6}
+C {4_input_or.sym} 1430 -370 0 0 {name=x7}
+C {iopin.sym} 1280 -1040 0 0 {name=p7 lab=vdd}
+C {iopin.sym} 1270 -40 0 0 {name=p8 lab=vss}
+C {opin.sym} 1640 -540 0 0 {name=p9 lab=vo}

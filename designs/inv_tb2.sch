@@ -14,8 +14,12 @@ N 990 -230 1000 -230 {lab=GND}
 N 1000 -230 1000 -200 {lab=GND}
 N 990 -250 1020 -250 {lab=out}
 N 1020 -250 1100 -250 {lab=out}
+N 690 -270 760 -270 {lab=in}
+N 800 -310 990 -270 {lab=VDD}
+N 800 -230 990 -230 {lab=GND}
+N 870 -270 990 -250 {lab=out}
 C {title.sym} 20 -20 0 0 {name=l1 author="Jojo"}
-C {inv.sym} 840 -250 0 0 {name=x1}
+C {inv.sym} 890 -120 0 0 {name=x1_inv}
 C {vsource.sym} 530 -200 0 0 {name=V1 value=3.3 savecurrent=false}
 C {vsource.sym} 600 -200 0 0 {name=VIN value=3.3 savecurrent=false}
 C {vdd.sym} 530 -260 0 0 {name=l2 lab=VDD}
